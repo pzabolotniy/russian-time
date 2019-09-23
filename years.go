@@ -13,7 +13,7 @@ func (t Time) YearString() (year string) {
 	case y == 1900:
 		year = "Одна тысяча девятисотый"
 	case y < 2000 && y >= 1900:
-		year = "Одна тысяча девятьсот " + lastDecadeYearString(y-1900)
+		year = "Одна тысяча девятсот " + lastDecadeYearString(y-1900)
 	case y == 2000:
 		year = "Двухтысячный"
 	case y > 2000 && y < 3000:
@@ -56,11 +56,11 @@ func lastDecadeYearString(y int) (result string) {
 	case y == 16:
 		result = "шестнадцатого"
 	case y == 17:
-		result = "семьнадцатого"
+		result = "семнадцатого"
 	case y == 18:
-		result = "восемьнадцатого"
+		result = "восемнадцатого"
 	case y == 19:
-		result = "девятьнадцатого"
+		result = "девятнадцатого"
 	case y == 20:
 		result = "двадцатого"
 	case y == 30:
@@ -103,11 +103,11 @@ func lastDecadeYearStringInCase(y int) (result string) {
 	case y == 16:
 		result = "шестнадцатого"
 	case y == 17:
-		result = "семьнадцатого"
+		result = "семнадцатого"
 	case y == 18:
-		result = "восемьнадцатого"
+		result = "восемнадцатого"
 	case y == 19:
-		result = "девятьнадцатого"
+		result = "девятнадцатого"
 	case y == 20:
 		result = "двадцатого"
 	case y == 30:
