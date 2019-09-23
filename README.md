@@ -12,7 +12,7 @@ Installation:
 ```go
 import (
     "fmt"
-    "github.com/ivahaev/russian-time"
+    "github.com/pyzabolotniy/russian-time"
     "time"
 )
 // Get current local DateTime
