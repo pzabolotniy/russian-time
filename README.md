@@ -4,7 +4,7 @@ A tiny library to represent DateTime in russian language
 
 Installation:
 --
-    go get "github.com/ivahaev/russian-time"
+    go get "github.com/pzabolorniy/russian-time"
 
 
 ## Usage
